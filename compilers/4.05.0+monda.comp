@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.05.0"
-src: "https://github.com/mshinwell/ocaml/tarball/gdb-names-gpr"
+src: "https://github.com/justinc1/ocaml/tarball/jc-gdb-names-gpr"
 build: [
   ["./configure" "-prefix" "%{prefix}%" "-flambda" "-fPIC"]
   ["%{make}%" "world"]
